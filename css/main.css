@@ -40,6 +40,10 @@ b {
     display: none !important;
 }
 
+.pr-0 {
+    padding-right: 0px !important;
+}
+
 /* Home */
 
 .bg-top {
@@ -53,7 +57,7 @@ b {
 
 .width-fix {
     width: calc(100% - 20px);
-    max-width: 800px;
+    max-width: 1024px;
     margin: 0px auto;
 }
 
@@ -218,7 +222,7 @@ section.categoria {
     left: 0;
     bottom: 10px;
     width: calc(100% - 20px);
-    max-width: 800px;
+    max-width: 1024px;
     margin: 0 auto;
     border-radius: 50px;
     padding: 5px;
@@ -483,7 +487,7 @@ textarea {
     left: 0;
     bottom: 10px;
     width: calc(100% - 20px);
-    max-width: 800px;
+    max-width: 1024px;
     margin: 0 auto;
     border-radius: 20px;
     padding: 15px 25px;
@@ -497,4 +501,110 @@ textarea {
 
 .btn-full.voltar {
     justify-content: center;
+}
+
+/* Carrinho  */
+.bg-top.pedido {
+    height: 180px;
+}
+
+.container-detalhes {
+    display: flex;
+}
+
+.carrinho .detalhes-produto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carrinho .infos-produto {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carrinho .infos-produto .name {
+    font-size: 16px;
+}
+
+.carrinho .infos-produto .price {
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.carrinho .infos-produto .name-opcional,
+.carrinho .infos-produto .price-opcional,
+.carrinho .infos-produto .obs-opcional {
+    font-size: 14px;
+    color: var(--color-text);
+    margin-left: 10px;
+}
+
+.carrinho .infos-produto .obs-opcional {
+    margin-right: 70px;
+}
+
+.carrinho .detalhes-produto-edit {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.carrinho .infos-produto .name-total {
+    font-size: 18px;
+    color: var(--color-black);
+}
+
+.carrinho .infos-produto .price-total {
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+.card-select {
+    border: 2px dashed var(--color-primary) !important;
+    cursor: pointer;
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.card-address {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-icon-details {
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-secondary);
+    color: var(--color-black);
+    font-size: 22px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-address .infos {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.card-address .name {
+    color: var(--color-black);
+}
+
+.icon-edit {
+    font-size: 16px;
+    color: var(--color-primary);
 }
