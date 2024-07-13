@@ -37,6 +37,10 @@ b {
     font-family: 'PoppinsMedium', 'Rubik', sans-serif;
 }
 
+select {
+    cursor: pointer !important;
+}
+
 .hidden {
     display: none !important;
 }
@@ -155,6 +159,16 @@ section.categoria {
     border: none !important;
     background-color: var(--color-primary);
     color: var(--color-black) !important;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.btn-red {
+    border: none !important;
+    background-color: var(--color-red);
+    color: var(--color-white) !important;
     border-radius: 20px;
     padding: 15px 25px;
     font-size: 20px;
@@ -573,6 +587,10 @@ textarea {
 
 .color-primary {
     color: var(--color-primary);
+}
+
+.color-green {
+    color: var(--color-green)!important;
 }
 
 .card-address {
