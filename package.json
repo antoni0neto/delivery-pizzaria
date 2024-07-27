@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-schema-object": "^3.3.4"
+  }
+}
